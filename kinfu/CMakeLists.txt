@@ -21,7 +21,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(
-  PCL REQUIRED
+  PCL 1.8 REQUIRED HINTS "/usr/local/taraxl-pcl"
   )
 
 find_package(
